@@ -25,10 +25,10 @@ function drawTree (hight) {
   //drawTree(levels);
 
   if(levels == 0) {
-      alert("nope 0, try another")
+     console.log("nope 0, try another")
   }
   else if(levels == 1) {
-      alert("nope 1, try bigger")
+      console.log("nope 1, try bigger")
   }
   else {
       console.log("ok, let's do this")
